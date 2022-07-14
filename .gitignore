@@ -24,3 +24,6 @@ ipython_config.py
 .sconsign.dblite
 .sconsign.dblite.DS_Store
 .DS_Store
+
+# do not commit .vscode
+.vscode
