@@ -7,6 +7,8 @@ This tool visualizes specific metrics of three Providers ([AWS][terraform_aws], 
 
 ## Implementation
 Mostly, the code of Providers and Modules are available Open Source on GitHub.
+Additionally, there is a [Terraform Registry HTTP API][terraform_registry_api_docs] that allows to discover the [Terraform Registry][terraform_registry_url].
+
 The following list shows which metrics are visualized -> and their origin:
 - Download metrics of each Provider -> Terraform Registry Provider [AWS][terraform_aws], [Azure][terraform_azure] and [GCP][terraform_gcp]
 - Number of Modules available for each Provider -> [Terraform Registry][terraform_registry_url]
