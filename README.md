@@ -11,7 +11,7 @@ Additionally, there is a [Terraform Registry HTTP API][terraform_registry_api_do
 
 The following list shows which metrics are visualized -> and their origin:
 - Download metrics of each Provider -> Terraform Registry Provider [AWS][terraform_aws], [Azurerm][terraform_azurerm] and [Google][terraform_google]
-- Number of Modules available for each Provider -> [Terraform Registry][terraform_registry_url]
+- Number of Modules available for each Provider -> [AWS][terraform_modules_aws], [Azurerm][terraform_modules_azurerm] and [Google][terraform_modules_google]
 - Number of Stars for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
 - Number of Open Issues for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
 - Number of Forks for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
@@ -26,6 +26,9 @@ UPCOMING: What's interesting to visualize:
 [terraform_aws]: https://registry.terraform.io/providers/hashicorp/aws/latest
 [terraform_azurerm]: https://registry.terraform.io/providers/hashicorp/azurerm/latest
 [terraform_google]: https://registry.terraform.io/providers/hashicorp/google/latest
+[terraform_modules_aws]: https://registry.terraform.io/browse/modules?provider=aws
+[terraform_modules_azurerm]: https://registry.terraform.io/browse/modules?provider=azurerm
+[terraform_modules_google]: https://registry.terraform.io/browse/modules?provider=google
 [github_aws]: https://github.com/hashicorp/terraform-provider-aws
 [github_azurerm]: https://github.com/hashicorp/terraform-provider-azurerm
 [github_google]: https://github.com/hashicorp/terraform-provider-google
