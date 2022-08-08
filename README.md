@@ -11,13 +11,13 @@ Additionally, there is a [Terraform Registry HTTP API][terraform_registry_api_do
 
 The following list shows which metrics are visualized -> and their origin:
 - Download metrics of each Provider -> Terraform Registry Provider [AWS][terraform_aws], [Azurerm][terraform_azurerm] and [Google][terraform_google]
-- Number of Modules available for each Provider -> [AWS][terraform_modules_aws], [Azurerm][terraform_modules_azurerm] and [Google][terraform_modules_google]
-- Number of Stars for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
-- Number of Open Issues for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
-- Number of Forks for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
+- Number of Modules available for each Provider -> Terraform Registry Modules filtered by [AWS][terraform_modules_aws], [Azurerm][terraform_modules_azurerm] and [Google][terraform_modules_google]
+- Number of Stars for each Provider -> GitHub Repository of [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
+- Number of Open Issues for each Provider -> GitHub Repository of [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
+- Number of Forks for each Provider -> GitHub Repository of [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
 
 UPCOMING: What's interesting to visualize:
-- Number of Contributors for each Provider -> GitHub Repository [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
+- Number of Contributors for each Provider -> GitHub Repository of [AWS][github_aws], [Azurerm][github_azurerm] and [Google][github_google]
 
 <!-- Links -->
 [terraform_url]: https://www.terraform.io/
